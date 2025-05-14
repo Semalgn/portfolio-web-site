@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semalgn T.</title>
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Semalgn</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Semalgn Tilahun</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          A skilled Frontend Developer who specializes in responsive design .
+        </p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.X.com/" target="_blank"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+        </div>
+
+        <a href="#contact" class="btn" target="_blank">Hire ME!</a>
+      </div>
+      <div class="home-img">
+        <img src="images/home-pic.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/about-pic.png" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer!</h3>
+        <p class="text" id="text">
+          I am Semalgn Tilahun, A frontend developer, UI/UX designer, Animations
+          & Transitions Specialist.
+          <br />
+          <span class="dots">....</span><br />
+          <span class="more-text" style="display: none">
+            I am web developer and web designer specialized in building
+            intuitive, aesthetically stunning digital experiences. I have the
+            right mixture of beautiful code, cutting-edge design and eye-catchy
+            art. Performance, accessibility, responsivenes are guaranteed for
+            every build. Collaboration is everything from me and I am
+            collaborative with my clients to turn an idea into a reality then
+            deliver a quality solutions to my clients.
+          </span>
+        </p>
+        <button class="btn toggle-button" onclick="toggleText(this)">
+          Read More
+        </button>
+      </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Responsive Web Design</h3>
+          <p class="text">
+            <span class="dots">Build a responsive & mobile-first web sites</span
+            ><br />
+            <span class="more-text" style="display: none">
+              Responsive to any device with seamless transition and engaging UI
+              / Mobile, Tablet to Desktop /.
+            </span>
+          </p>
+          <button class="btn toggle-button" onclick="toggleText(this)">
+            Read More
+          </button>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+        <div class="services-box">
+          <i class="bx bxs-palette"></i>
+          <h3>UI/UX Design</h3>
+          <p>
+            <span class="dots"
+              >Translate design concepts to user-friendly interface.</span
+            ><br />
+            <span class="more-text" style="display: none">
+              Offer visually beautiful phenomenal experience, smooth transitions
+              that improve UI and engagement without compromising performance.
+            </span>
+          </p>
+          <button class="btn toggle-button" onclick="toggleText(this)">
+            Read More
+          </button>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+        <div class="services-box">
+          <i class="bx bxl-discord-alt"></i>
+          <h3>Graphics Design</h3>
+          <p>
+            <span class="dots"
+              >Designs connected with your brand & increases engagement.</span
+            ><br />
+            <span class="more-text" style="display: none">
+              Specialized in designing logos, business cards, flyers, and
+              brochures. I create unique and memorable designs that reflect your
+              brand's identity and values. I also create social media graphics
+              and marketing materials.
+            </span>
+          </p>
+          <button class="btn toggle-button" onclick="toggleText(this)">
+            Read More
+          </button>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills1 section design -->
+    <section id="skills" class="skills">
+      <div class="main-text">
+        <h2 class="heading">My <span>Skills</span></h2>
+      </div>
+      <div class="skill-main">
+        <div class="skill-left">
+          <h3>Technical Skills</h3>
+          <div class="skill-bar">
+            <div class="info">
+              <p>HTML</p>
+              <p>90%</p>
+            </div>
+            <div class="bar">
+              <span class="HTML"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>CSS</p>
+              <p>62%</p>
+            </div>
+            <div class="bar">
+              <span class="css"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>JavaScript</p>
+              <p>82%</p>
+            </div>
+            <div class="bar">
+              <span class="javascrip"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>PYTHON</p>
+              <p>80%</p>
+            </div>
+            <div class="bar">
+              <span class="python"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>REACT</p>
+              <p>85%</p>
+            </div>
+            <div class="bar">
+              <span class="react"></span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-right">
+          <h3>Soft Skills</h3>
+          <div class="professional">
+            <div class="box">
+              <div class="circle" data-dots="70" data-percent="90"></div>
+              <div class="text">
+                <big>90%</big>
+                <small>Team Work</small>
+              </div>
+            </div>
+            <div class="box">
+              <div class="circle" data-dots="70" data-percent="85"></div>
+              <div class="text">
+                <big>85%</big>
+                <small>Creativity</small>
+              </div>
+            </div>
+            <div class="box">
+              <div class="circle" data-dots="70" data-percent="80"></div>
+              <div class="text">
+                <big>80%</big>
+                <small>Project Management</small>
+              </div>
+            </div>
+            <div class="box">
+              <div class="circle" data-dots="70" data-percent="92"></div>
+              <div class="text">
+                <big>92%</big>
+                <small>Communication</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/portfolio1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Dummerso Coffee House website design</p>
+            <a
+              href="https://semalgn.github.io/Dummerso-project/"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Product Store CRUD App</h4>
+            <p>Product Store</p>
+            <a
+              href="https://github.com/Semalgn/product-store-app"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>React App</h4>
+            <p>Shoe shop Landing Page</p>
+            <a
+              href="https://github.com/Semalgn/shoe-shop-landing-page"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio4.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>E Commerce Website</h4>
+            <p>Amazon Clone</p>
+            <a
+              href="https://github.com/Semalgn/amazon-like-cart"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio5.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>React Application</h4>
+            <p>3D Portfolio Website</p>
+            <a href="https://github.com/Semalgn/MY-3D-PORTFOLIO" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio6.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Image-gallery-project</h4>
+            <p>Image Gallery</p>
+            <a
+              href="https://github.com/Semalgn/Image-gallery-project"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="#" id="contact-form">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="your Message"
+        ></textarea>
+        <p class="contact__message" id="contact-message">Message</p>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by Semalgn | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=========== EMAIL js==============-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- typed js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
